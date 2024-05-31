@@ -3,6 +3,8 @@ import { ThemeProvider } from '@/context/theme-provider';
 import { NextUIProviderContext } from '@/context/nextui-provider';
 import './globals.css';
 import localFont from 'next/font/local';
+import Header from './components/header';
+import Footer from './components/footer';
 
 const fabrikat = localFont({
   src: [
@@ -111,21 +113,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={`${fabrikat.variable} font-fabrikat antialiased`}
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          margin: '0 auto',
-        }}
-      >
-        <ThemeProvider>
-          <NextUIProviderContext>{children}</NextUIProviderContext>
-        </ThemeProvider>
-      </body>
+      <ThemeProvider>
+        <NextUIProviderContext>
+          <body
+            className={`${fabrikat.variable} font-fabrikat bg-[url('../public/background.png')] antialiased`}
+            style={{
+              minHeight: '100vh',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              margin: '0 auto',
+            }}
+          >
+            <Header />
+            {children}
+            <Footer />
+          </body>
+        </NextUIProviderContext>
+      </ThemeProvider>
     </html>
   );
 }
