@@ -21,6 +21,17 @@ export default function Home() {
           Ver horarios
         </Button>
       </Link>
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '0',
+          right: '0',
+          width: '200px',
+          aspectRatio: 1,
+          clipPath: 'polygon(0 100%,100% 0,100% 100%)',
+          background: '#eb1f3f',
+        }}
+      ></div>
     </main>
   );
 }
