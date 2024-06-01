@@ -1,12 +1,10 @@
-import { auth } from '@/auth';
+import { loggedUser } from '../logged-user';
 
 const UserInfo = async () => {
-  const session = await auth();
+  const session = await loggedUser();
+  if (!session) return null;
   return (
-    <p className="mb-3 text-center">
-      Bienvenido{' '}
-      <span className=" font-bold text-primary">{session?.user?.name}!</span>
-    </p>
+    <p className=" text-2xl font-bold">Bienvenido, {session?.user?.name}!</p>
   );
 };
 

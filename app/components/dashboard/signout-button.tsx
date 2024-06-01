@@ -15,6 +15,7 @@ const SignoutButton = () => {
         variant="bordered"
         startContent={<PowerIcon className="w-6" />}
         type="submit"
+        size="md"
       >
         Cerrar sesión
       </Button>
