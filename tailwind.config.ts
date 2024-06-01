@@ -10,6 +10,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        lightPaper: '#FCF6F5',
+        darkPaper: '#272C30',
+        light: {
+          colors: {
+            background: '#ddd4d3',
+            foreground: '#212529',
+          },
+        },
+        dark: {
+          colors: {
+            background: '#212529',
+            foreground: '#FCF6F5',
+          },
+        },
+      },
       fontFamily: {
         'fabrikat': ['var(--font-fabrikat)'],
       },
@@ -27,7 +43,7 @@ const config: Config = {
         light: {
           colors: {
             background: '#ddd4d3',
-            foreground: '#101820',
+            foreground: '#212529',
             primary: {
               50: '#fff0f0',
               100: '#ffcbce',
@@ -40,13 +56,13 @@ const config: Config = {
               800: '#8d0e2d',
               900: '#4f0213',
               DEFAULT: '#eb1f3f',
-              foreground: '#101820',
+              foreground: '#212529',
             }
           },
         },
         dark: {
           colors: {
-            background: '#101820',
+            background: '#212529',
             foreground: '#FCF6F5',
             primary: {
               50: '#fff0f0',

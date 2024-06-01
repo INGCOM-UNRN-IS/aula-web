@@ -14,9 +14,8 @@ export default function Home() {
       <Link href="/horarios">
         <Button
           variant="bordered"
-          color="primary"
           size="lg"
-          className="w-48 border-white text-white"
+          className="w-48 border-foreground text-foreground"
         >
           Ver horarios
         </Button>
