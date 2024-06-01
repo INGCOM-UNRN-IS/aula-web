@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-  return <footer>Ing. de Software I - UNRN</footer>;
+  return <footer>Hecho por alumnos Ingeniería en Computación</footer>;
 };
 
 export default Footer;

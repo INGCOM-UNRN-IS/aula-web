@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function NotFound() {
   return (
     <div className="flex flex-grow flex-col items-center justify-center p-6">
-      <h1 className="text-center text-xl text-primary">
+      <h1 className="text-center text-lg text-primary">
         Acá no hay nada maestro... o si?
       </h1>
       <Image src={not_found} alt="Not Found" priority width={300} />

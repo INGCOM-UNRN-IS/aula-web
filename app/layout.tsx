@@ -9,72 +9,72 @@ import Footer from './components/footer';
 const fabrikat = localFont({
   src: [
     {
-      path: '../assets/fonts/Fabrikat/black.otf',
+      path: '../public/fonts/Fabrikat/black.otf',
       weight: '900',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/blackItalic.otf',
+      path: '../public/fonts/Fabrikat/blackItalic.otf',
       weight: '900',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/bold.otf',
+      path: '../public/fonts/Fabrikat/bold.otf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/boldItalic.otf',
+      path: '../public/fonts/Fabrikat/boldItalic.otf',
       weight: '700',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/hairline.otf',
+      path: '../public/fonts/Fabrikat/hairline.otf',
       weight: '100',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/hairlineItalic.otf',
+      path: '../public/fonts/Fabrikat/hairlineItalic.otf',
       weight: '100',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/light.otf',
+      path: '../public/fonts/Fabrikat/light.otf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/lightItalic.otf',
+      path: '../public/fonts/Fabrikat/lightItalic.otf',
       weight: '300',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/medium.otf',
+      path: '../public/fonts/Fabrikat/medium.otf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/mediumItalic.otf',
+      path: '../public/fonts/Fabrikat/mediumItalic.otf',
       weight: '500',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/regular.otf',
+      path: '../public/fonts/Fabrikat/regular.otf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/regularItalic.otf',
+      path: '../public/fonts/Fabrikat/regularItalic.otf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../assets/fonts/Fabrikat/thin.otf',
+      path: '../public/fonts/Fabrikat/thin.otf',
       weight: '200',
       style: 'normal',
     },
     {
-      path: '../assets/fonts/Fabrikat/thinItalic.otf',
+      path: '../public/fonts/Fabrikat/thinItalic.otf',
       weight: '200',
       style: 'italic',
     },
