@@ -5,12 +5,12 @@ import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-  { href: '/carreras', label: 'Carreras' },
   { href: '/UNRN', label: 'UNRN' },
   { href: '/accesibilidad', label: 'Accesibilidad' },
   { href: 'https://guarani.unrn.edu.ar/', label: 'SIU Guaraní' },
   { href: '/contacto', label: 'Contacto' },
   { href: '/ayuda', label: 'Ayuda' },
+  { href: '/login', label: 'Acceder' },
 ];
 
 export default function NavLinks() {
